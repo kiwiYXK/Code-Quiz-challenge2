@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Code-Quiz-Challenge</title>
+</head>
+<body>
+    <!-- set header  -->
+<header>
+<h3 id="view-scores">View High Scores</h3>
+<h3>Time:<span id="time">75</span>s</h3>
+</header>
+
+<main>
+    <!-- start quize  -->
+   <section id="start-container">
+       <h1> Coding Quiz Challenge</h1>
+       <p>Try to answer the follwing code-related questions with-in the time
+        limit. Keep in mind that incorrect answers will penalize your score-time by 10 seconds.
+    </p>
+        <button id="start-quiz-btn" type="button">Start Quiz</button>
+   </section>
+<!-- run question -->
+    <section id="questions-container">
+    <div id="question">
+        <!-- <p>Which of the following is an advantage of using JavaScript?</p>
+        <ol id="active">
+            <li >Less server interaction</li>
+            <li >Immediate feedback to the visitors</li>
+            <li > Increased interactivity</li>
+            <li >All of the above.</li>
+        </ol> -->
+    </div>
+    <div class="message"></div>
+    </section>
+<!--  submit container  -->
+<section id="submit-container">
+    <h2>All Done!</h2>
+    <p>your final score is:<strong id="score">20</strong></p>
+    <label>Enter Initial:<input id="name" type="text" /></label>
+    <button id="submit-quiz-btn" type="submit">Submit</button>
+    <div class="message"></div>
+</section>
+<!--  set the scores -->
+<section id="scores-container">
+    <h2>High Scores</h2>
+    <div id="scores">
+        <!-- <ol>
+            <li><span>Jone</span>100</li>
+            <li><span>Jone</span>88</li>
+            <li><span>Jone</span>66</li>
+            <li><span>Jone</span>10</li>
+        </ol> -->
+    </div>
+<!--   set buttons  -->
+    <div>
+        <button type="button" id="back-btn">Go Back</button>
+        <button type="button" id="clear-btn">Clear High Scores</button>
+    </div>
+</section>
+</main>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
