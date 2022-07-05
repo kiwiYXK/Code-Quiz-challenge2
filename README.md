@@ -25,6 +25,6 @@ WHEN the game is over
 THEN I can save my initials and score
 
 ## This is  screenshot for the challenge looks like : 
-[!screenshoot](./assets/photos/chrome_fFU9WYkMry.png);
-[!screenshoot](./assets/photos/chrome_kfKCccZKX1.png);
-[!screenshoot](./assets/photos/chrome_oUPg27Yffr.png);
+![screenshoot](./assets/photos/chrome_fFU9WYkMry.png);
+![screenshoot](./assets/photos/chrome_kfKCccZKX1.png);
+![screenshoot](./assets/photos/chrome_oUPg27Yffr.png);
